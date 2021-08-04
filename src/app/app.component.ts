@@ -9,7 +9,7 @@ const DefaultCollection = {name: 'Alex', age: '15'}
 })
 export class AppComponent {
 
-  text: string = 'My super text';
+  text = 'My super text';
   // --------------------------------
   DefaultCollection = DefaultCollection;
   collection = Object.assign({}, DefaultCollection);
